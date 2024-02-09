@@ -1,16 +1,16 @@
 <template>
   <div class="custom">
-    <Create v-for="options in create" 
+    <!-- <Create v-for="options in create" 
     :key="create.name" 
     :Destination="create"
-/>
+/> -->
     <h1>Design Your Own Cake!</h1>
     
   </div>
 </template>
-
+<!-- 
 <script setup>
-import Create from "@/components/create.vue";
+import Create from "@/components/Create.vue";
 const create = [{
           name: "Chocolate Round",
           International: true,
@@ -61,3 +61,4 @@ const create = [{
   }
 }
 </style>
+ -->

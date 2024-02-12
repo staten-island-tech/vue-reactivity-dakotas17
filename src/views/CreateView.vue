@@ -5,9 +5,32 @@
     :Destination="create"
 /> -->
     <h1>Design Your Own Cake!</h1>
+    <h2>Base</h2>
+    <button>vanilla</button>
+    <button>chocolate</button>
+    <h2>Frosting</h2>
+    <button>vanilla</button>
+    <button>chocolate</button>
+    <button>strawberry</button>
+    <h2>Sprinkles</h2>
+    <button>https://static.vecteezy.com/system/resources/thumbnails/012/289/749/small/sprinkles-seamless-pattern-colorful-sprinkles-repeating-pattern-design-transparent-background-illustration-png.png</button>
+    <button>no</button>
+    <h2>Candles</h2>
+    <button>https://images.vexels.com/media/users/3/300122/isolated/preview/63700c047483da36a0690f791a28e95b-pink-simple-birthday-candle.png</button>
+    <button>https://images.vexels.com/media/users/3/194267/isolated/preview/231a81e767b5455c37cd7e1a2968a0d4-birthday-candles-set.png</button>
+    <button>numbers</button>
+    <h2>Shape</h2>
+    <button>round</button>
+    <button>square</button>
     
   </div>
 </template>
+
+https://static.vecteezy.com/system/resources/previews/022/227/604/original/birthday-cake-free-png.png
+https://png.pngtree.com/png-clipart/20220430/original/pngtree-birthday-cake-cartoon-vector-illustration-png-image_7597943.png
+
+
+
 <!-- 
 <script setup>
 import Create from "@/components/Create.vue";
@@ -15,40 +38,40 @@ const create = [{
           name: "Chocolate Round",
           International: true,
           price: 1300,
-          img: "https://tutti-dolci.com/wp-content/uploads/2018/08/Classic-Chocolate-Layer-Cake-1-copy.jpg",
+          img: "",
         },
         {
           name: "Chocolate Square",
           International: true,
           price: 800,
-          img: "https://ne-mos-bakery.myshopify.com/cdn/shop/products/HFG_ChocCake_Sq_1024x1024@2x.jpg?v=1596492671",
+          img: "",
         },
         {
           name: "Vanilla Round",
           International: true,
           price: 1200,
-          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQELfv4I6rNrFtU5vLiCcvAdLh-dD69SNal9Q&usqp=CAU",
+          img: "",
         },
         {
           name: "Vanilla Square",
           International: false,
           price: 900,
-          img: "https://sallysbakingaddiction.com/wp-content/uploads/2019/06/vanilla-sheet-cake.jpg",
+          img: "",
         },
         {
           name: "Cascade Mountains",
           International: false,
           price: 400,
-          img: "https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80&quot",
+          img: "",
         },
         {
           name: "Egyptian Exploration",
           International: true,
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "",
         },
       ]
-</script>
+</script> -->
 
 
 
@@ -61,4 +84,3 @@ const create = [{
   }
 }
 </style>
- -->

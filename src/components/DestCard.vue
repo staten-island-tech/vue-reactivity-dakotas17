@@ -1,9 +1,9 @@
 <template>
-    <div>
-<h1 class="card">{{ Destination.name }}</h1>
+    <div class="card">
+<h1>{{ Destination.name }}</h1>
 <img :src="Destination.img" alt="">
 <h2>{{ click }}</h2>
-<button @click="increment">add to cart (doesnt work btw not my project)</button>
+<button @click="increment">add to cart</button>
     </div>
    
 </template>

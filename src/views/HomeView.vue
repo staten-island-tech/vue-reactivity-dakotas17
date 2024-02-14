@@ -2,7 +2,6 @@
   <div>
 <DestCard v-for="destination in destinations" 
 :key="destination.name" :Destination="destination"
-
 />
 
   </div>
@@ -10,6 +9,9 @@
 
 
 <script setup>
+
+
+
 import DestCard from "@/components/DestCard.vue";
 const destinations = [{
           name: "Chocolate Round",

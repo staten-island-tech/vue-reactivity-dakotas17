@@ -14,13 +14,11 @@
     <button>strawberry</button>
 
     <h2>Sprinkles</h2>
-    <button>1</button>
-    <button>no</button>
+    <button>option 1</button>
 
     <h2>Candles</h2>
-    <button>1</button>
-    <button>2</button>
-    <button>numbers</button>
+    <button>option 1</button>
+    <button>option 2</button>
 
     <h2>Shape</h2>
     <button>round</button>
@@ -28,7 +26,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 
 

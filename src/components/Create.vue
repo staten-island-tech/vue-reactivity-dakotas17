@@ -1,4 +1,4 @@
-<template>
+`<template>
     <div>
 <h1>{{ create.name }}</h1>
 <img :src="create.image" alt="">
